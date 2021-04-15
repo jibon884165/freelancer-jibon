@@ -1,0 +1,128 @@
+
+.granly-overlow-wrapper {
+    background-image: url (img/lago-espejo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.granly-overlow-wrapper:after {
+background: #24166d;
+background: -moz-linear-gradient(-45deg,#24166d 0%,#d9aec2 100%);
+background: -webkit-linear-gradient(-45deg,#24166d 0%,#d9aec2 100%);
+background: linear-gradient(135deg,#24166d 0%,#d9aec2 100%);
+
+
+}
+
+
+
+.granly-overlow-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+  .granly-overlow-wrapper:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    overflow: .9;
+  }
+  .lago h1 {
+    width: 225px;
+    font-size: 50px;
+    color: antiquewhite;
+}
+.lago span {
+    color: #0085f9;
+    font-size: 33px;
+}
+  .mail-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+  }
+  .mail-menu li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+  }
+  .mail-menu li a {
+    color: #fff;
+    opacity: .5;
+    display: block;
+    font-size: 25px;
+    padding: 20px;
+    text-decoration: none;
+  }
+  .header-area::after {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    content: "";
+    background: #fff;
+    opacity: .2;
+}
+.mail-menu li:hover {
+    border: 1px solid #fff;
+    background: #39287785;
+    box-shadow: 1px 1px #151414;
+  }
+  .mail-menu li a:hover {
+    opacity: 1.1;
+}
+
+.mail-menu li a:hover {
+    opacity: 1.1;
+  }
+  .header-area {
+    position: relative;
+    z-index: 1;
+    padding: 20px 40px;
+  }
+  .hero-wrap {
+  }
+  .mobile-app {
+    position: relative;
+    left: 610px;
+    bottom: 167px;
+    width: 514px;
+  }
+  .hero-text {
+    max-width: 410px;
+    color: #fff;
+    left: 181px;
+    right: 0;
+    position: relative;
+    top: 224px;
+  }
+  .hero-text h1 {
+    font-size: 47px;
+    font-weight: 300;
+  }
+  .hero-botton a {
+    color: #fff;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin: 0px 15px 0px 10px;
+    padding: 10px 20px;
+    top: 41px;
+    position: relative;
+    border-radius: 50px;
+    text-align: center;
+}
+.hero-botton a:hover {
+    background: #f0ffff45;
+    color: #574185;
+}
+.hero-text p {
+    font-size: 15px;
+    opacity: .8;
+}
+.hero-botton {
+   
+}
